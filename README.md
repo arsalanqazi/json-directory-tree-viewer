@@ -52,7 +52,7 @@ tree -J .
 tree -J -s -f -D .
 
 # Save to a file
-tree -J -s -f -D . > my-project-tree.json
+tree . --info -D -a -J -t -c -s -f > my-project-tree.json
 ```
 
 > **On macOS:** Install `tree` via Homebrew: `brew install tree`  
