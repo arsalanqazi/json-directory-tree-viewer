@@ -60,35 +60,6 @@ tree . --info -D -a -J -t -c -s -f > my-project-tree.json
 
 ---
 
-## Installation
-
-### Download Pre-Built Installer
-
-Go to the [**Releases page**](https://github.com/arsalanqazi/json-directory-tree-viewer/releases) and download the installer for your platform:
-
-| Platform | File | Notes |
-|---|---|---|
-| **Windows** | `Directory Tree Viewer Setup 1.0.0.exe` | NSIS installer with Start Menu shortcut |
-| **macOS (Intel)** | `Directory Tree Viewer-1.0.0-x64.dmg` | Drag to Applications |
-| **macOS (Apple Silicon)** | `Directory Tree Viewer-1.0.0-arm64.dmg` | Drag to Applications |
-| **Linux** | `Directory Tree Viewer-1.0.0.AppImage` | Make executable, then run |
-
-#### Windows
-Double-click the `.exe` installer and follow the setup wizard. The app will be added to your Start Menu and optionally to your Desktop.
-
-#### macOS
-1. Open the `.dmg` file
-2. Drag **Directory Tree Viewer** to the **Applications** folder
-3. On first launch: right-click the app → **Open** (bypasses Gatekeeper for unsigned builds)
-
-#### Linux (AppImage)
-```bash
-chmod +x "Directory Tree Viewer-1.0.0.AppImage"
-./"Directory Tree Viewer-1.0.0.AppImage"
-```
-
----
-
 ## Run Locally (Web)
 
 If you just want to use it in a browser without installing anything:
